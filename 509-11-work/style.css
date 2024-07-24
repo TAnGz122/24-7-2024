@@ -1,0 +1,140 @@
+.all-lob {
+    display: flex;
+  }
+.lob {
+    list-style: none;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px #ccc;
+  }
+.lob li {
+    margin-top: 12px;
+    margin-left: 65px;
+    margin-bottom: 12px;
+    background-color: rgb(255, 255, 255);
+    max-width: 200px;
+  }
+.lob li a {
+    color: #333;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+  }
+.lob li a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    opacity: 0;
+    height: 5px;
+    background-image: linear-gradient(to right,pink ,lightpink);
+    bottom: -10px;
+    left: 1px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.lob li a:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+.all-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    padding: 40px 60px;
+    background-color: white;
+    border: solid 1px #ccc;
+    list-style: none;
+    border-radius: 10px;
+}
+.menu  a {
+    color: #333;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 0 45px;
+}
+.menu a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    opacity: 0;
+    height: 5px;
+    background-image: linear-gradient(to right,pink ,lightpink);
+    bottom: -10px;
+    left: 1px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.menu a:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+* {
+    background-color: #12af79;
+}
+main {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  main .info {
+    text-align: right;
+    color: #333;
+  }
+  
+  main .info-2 {
+    text-align: left;
+    margin-left: 20px;
+    color: #333;
+  
+  }
+.Icon{
+    display: flex;
+    text-align: center;
+    margin-top: 13%;
+
+}
+.img-1{
+    width: 200px;
+    height: 200px;
+    margin-right: 200px;
+}
+table ,th ,td {
+    border: 1px solid black;
+    margin-left: 15%;
+}
+.info-4 {
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.info-3 {
+    margin-left: 15%;
+}
+.info-5 {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.info-6 {
+   margin-left: 85%;
+}
+.img-2 {
+    width: 250px;
+    border-radius: 20px;
+}
+
+
